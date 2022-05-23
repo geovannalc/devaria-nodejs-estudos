@@ -47,6 +47,7 @@ readLine.question('Favor informar um numero:' , (numero1) => {
                                 break;
                             case '%' : console.log(`operador selecionado modulo resultado ${numeroValidado1} % ${numeroValidado2} = ${numeroValidado1 % numeroValidado2}`);
                                 break;
+                            default: break;
                         }
                     }
                 })
